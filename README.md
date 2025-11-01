@@ -6,8 +6,7 @@ Me encanta aprender nuevas herramientas, resolver problemas con código y constr
 ---
 
 ## 🚀 Sobre mí
-- 🧠 Actualmente estoy trabajando en **InnoSoft ERP**, un sistema ERP modular para mipymes en Nicaragua.  
-- 🌍 Ubicación: *Ciudad Sandino, Nicaragua* 🇳🇮  
+- 🌍 Ubicación: *Managua, Nicaragua* 🇳🇮  
 - 🎓 Interesado en arquitectura de software, cloud computing y optimización de procesos empresariales.  
 - 📚 Siempre aprendiendo más sobre **C#**, **Entity Framework**, **React**, y **Azure**.  
 - ⚙️ Me gusta escribir código limpio, bien estructurado y fácil de mantener.
@@ -37,8 +36,6 @@ Me encanta aprender nuevas herramientas, resolver problemas con código y constr
 ---
 
 ## 🧾 Portafolio y proyectos destacados
-🔹 [InnoSoft ERP](https://github.com/JosueRepo/InnoSoftERP) — Sistema ERP modular en desarrollo para pequeñas empresas.  
-🔹 [StoreX](https://github.com/JosueRepo/StoreX) — Plataforma de gestión de inventario con .NET y React.  
 
 ---
 

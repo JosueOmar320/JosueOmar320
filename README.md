@@ -1,64 +1,45 @@
-## Hi there 👋
+# 👋 ¡Hola! Soy Josue Omar
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi pagina de presentacion</title>
-  </head>
-  <body>
-    <h1>Mi pagina de presentacion</h1>
-    <h2>Hola! Soy Josue</h2>
-    <p>
-      Soy un apasionado de la tecnologia y el desarrollo web. Me encanta
-      aprender cosas nuevas y crear proyectos que puedan ser utiles para otros.
-    </p>
-    <h3>Mis Hobbies:</h3>
-    <ul>
-      <li>Programar</li>
-      <li>Leer libros de ciencia ficcion</li>
-      <li>Jugar videojuegos</li>
-    </ul>
-    <h3>Mis redes sociales:</h3>
-    <ul>
-      <li>
-        Twitter:
-        <a
-          href="https://twitter.com/JosueDev"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Twitter de JosueDev"
-          >@JosueDev</a
-        >
-      </li>
-      <li>
-        LinkedIn:
-        <a
-          href="https://www.linkedin.com/in/josue-developer"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="LinkedIn de Josue Developer"
-          >Josue Developer</a
-        >
-      </li>
-      <li>
-        GitHub:
-        <a
-          href="https://github.com/JosueRepo"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="GitHub de JosueRepo"
-          >JosueRepo</a
-        >
-      </li>
-    </ul>
-    <p>
-      <a href="mailto:josue@example.com" aria-label="Enviar correo a Josue"
-        >josue@example.com</a
-      >
-    </p>
-    <p>© 2025 - Todos los derechos reservados</p>
-  </body>
-</html>
+💻 **Desarrollador de software** apasionado por la tecnología, el desarrollo web y la innovación.  
+Me encanta aprender nuevas herramientas, resolver problemas con código y construir soluciones que tengan un impacto real.  
 
+---
+
+## 🚀 Sobre mí
+- 🧠 Actualmente estoy trabajando en **InnoSoft ERP**, un sistema ERP modular para mipymes en Nicaragua.  
+- 🌍 Ubicación: *Ciudad Sandino, Nicaragua* 🇳🇮  
+- 🎓 Interesado en arquitectura de software, cloud computing y optimización de procesos empresariales.  
+- 📚 Siempre aprendiendo más sobre **C#**, **Entity Framework**, **React**, y **Azure**.  
+- ⚙️ Me gusta escribir código limpio, bien estructurado y fácil de mantener.
+
+---
+
+## 🛠️ Tecnologías y herramientas
+| Lenguajes | Backend | Frontend | Base de datos | Nube / DevOps |
+|------------|----------|-----------|----------------|----------------|
+| C#, TypeScript | ASP.NET Core | React, HTML, CSS | SQL Server, SQLite | Azure, GitHub Actions |
+
+---
+
+## 🎮 Hobbies
+- 💡 Programar y experimentar con nuevos proyectos personales  
+- 📖 Leer sobre ciencia ficción y tecnología  
+- 🕹️ Jugar videojuegos de aventura y estrategia  
+
+---
+
+## 🌐 Encuéntrame en
+- 🐦 [Twitter / X](https://twitter.com/JosueDev)
+- 💼 [LinkedIn](https://www.linkedin.com/in/josue-developer)
+- 💻 [GitHub](https://github.com/JosueRepo)
+- ✉️ [josue@example.com](mailto:josue@example.com)
+
+---
+
+## 🧾 Portafolio y proyectos destacados
+🔹 [InnoSoft ERP](https://github.com/JosueRepo/InnoSoftERP) — Sistema ERP modular en desarrollo para pequeñas empresas.  
+🔹 [StoreX](https://github.com/JosueRepo/StoreX) — Plataforma de gestión de inventario con .NET y React.  
+
+---
+
+### © 2025 - Todos los derechos reservados

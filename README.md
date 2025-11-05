@@ -22,16 +22,15 @@ Me encanta aprender nuevas herramientas, resolver problemas con código y constr
 
 ## 🎮 Hobbies
 - 💡 Programar y experimentar con nuevos proyectos personales  
-- 📖 Leer sobre ciencia ficción y tecnología  
+- 📖 Leer sobre tecnología  
 - 🕹️ Jugar videojuegos de aventura y estrategia  
 
 ---
 
 ## 🌐 Encuéntrame en
-- 🐦 [Twitter / X](https://twitter.com/JosueDev)
-- 💼 [LinkedIn](https://www.linkedin.com/in/josue-developer)
-- 💻 [GitHub](https://github.com/JosueRepo)
-- ✉️ [josue@example.com](mailto:josue@example.com)
+- 💼 [LinkedIn](www.linkedin.com/in/josue-flores-00356a2a2)
+- 💻 [GitHub](https://github.com/JosueOmar320)
+- ✉️ [josue.omar.75@Hotmail.com](mailto:josue.omar.75@Hotmail.com)
 
 ---
 

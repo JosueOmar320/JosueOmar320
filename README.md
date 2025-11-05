@@ -38,7 +38,7 @@ Disfruto resolver problemas con código limpio, estructurado y enfocado en el im
 ---
 
 ## 🌐 Encuéntrame en
-- 💼 [LinkedIn](www.linkedin.com/in/josue-flores-00356a2a2)
+- 💼 [LinkedIn](https://linkedin.com/in/josue-flores-00356a2a2)
 - 💻 [GitHub](https://github.com/JosueOmar320)
 - ✉️ [josue.omar.75@Hotmail.com](mailto:josue.omar.75@Hotmail.com)
 

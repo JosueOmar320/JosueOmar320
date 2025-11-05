@@ -22,7 +22,7 @@ Disfruto resolver problemas con código limpio, estructurado y enfocado en el im
 
 ## 🧾 Portafolio y proyectos destacados
 
-### 💳 [ATM API – Simulación de Cajero Automático](https://github.com/tuusuario/atm-api)
+### 💳 [ATM API – Simulación de Cajero Automático]([https://github.com/tuusuario/atm-api](https://github.com/JosueOmar320/BankingApp))
 > **C# · ASP.NET Core · EF Core · SQL Server**  
 > API que imita el funcionamiento de un cajero automático (depósitos, retiros, saldo).  
 > Implementa **Clean Architecture**, **testing automatizado con xUnit**, e incluye documentación Swagger.  

@@ -1,47 +1,47 @@
-# 👋 ¡Hola! Soy Josue Omar
+# 👋 Hi! I'm Josue Omar
 
-💻 **Desarrollador backend y full-stack** apasionado por la tecnología, la arquitectura de software y la construcción de soluciones escalables.  
-Disfruto resolver problemas con código limpio, estructurado y enfocado en el impacto real del negocio.
+💻 **Backend and Full-Stack Developer** passionate about technology, software architecture, and building scalable solutions.
+I enjoy solving problems with clean, structured code focused on real business impact.
 
 ---
 
-## 🚀 Sobre mí
+## 🚀 About Me
 - 🌍 Managua, Nicaragua 🇳🇮  
-- 🎓 Interesado en **arquitectura de software**, **cloud computing** y **optimización de procesos empresariales**  
-- 🧩 Aplico principios **SOLID**, **Clean Architecture** y buenas prácticas en desarrollo de APIs  
-- 📚 Siempre aprendiendo más sobre **C#**, **Entity Framework**, **React**, y **Azure**
+- 🎓 Interested in **software architecture**, **cloud computing** y **business process optimization**  
+- 🧩 I apply **SOLID principles**, **Clean Architecture** and best practices in API development
+- 📚 Always learning more about **C#**, **Entity Framework**, **React**, and **Azure**
 
 ---
 
-## 🛠️ Tecnologías y herramientas
-| Lenguajes | Backend | Frontend | Base de datos | Nube / DevOps |
+## 🛠️ Technologies & Tools
+| Lenguajes | Backend | Frontend | Database | Cloud / DevOps |
 |------------|----------|-----------|----------------|----------------|
 | C#, TypeScript | ASP.NET Core | React, HTML, CSS | SQL Server, SQLite | Azure, GitHub Actions |
 
 ---
 
-## 🧾 Portafolio y proyectos destacados
+## 🧾 Portfolio & Featured Projects
 
-### 💳 [ATM API – Simulación de Cajero Automático](https://github.com/JosueOmar320/BankingApp)
+### 💳 [ATM API – Automated Teller Machine Simulation](https://github.com/JosueOmar320/BankingApp)
 > **C# · ASP.NET Core · EF Core · SQL Server**  
-> API que imita el funcionamiento de un cajero automático (depósitos, retiros, saldo).  
-> Implementa **Clean Architecture**, **testing automatizado con xUnit**, e incluye documentación Swagger.  
-> Ejemplo de arquitectura limpia, separación de capas y pruebas unitarias.
+> API that simulates ATM operations (deposits, withdrawals, balance inquiry).
+> Implements Clean Architecture, automated testing with xUnit, and includes Swagger documentation. 
+> A practical example of clean architecture, layer separation, and unit testing.
 
 ---
 
 ## 🎮 Hobbies
-- 💡 Programar y experimentar con nuevos proyectos personales  
-- 📖 Leer sobre tecnología  
-- 🕹️ Jugar videojuegos de aventura y estrategia  
+- 💡 Coding and experimenting with new personal projects
+- 📖 Reading about technology  
+- 🕹️ Playing adventure and strategy video games
 
 ---
 
-## 🌐 Encuéntrame en
+## 🌐 Find Me On
 - 💼 [LinkedIn](https://linkedin.com/in/josue-flores-00356a2a2)
 - 💻 [GitHub](https://github.com/JosueOmar320)
 - ✉️ [josue.omar.75@Hotmail.com](mailto:josue.omar.75@Hotmail.com)
 
 ---
 
-### © 2025 - Todos los derechos reservados
+### © 2025 - All rights reserved

@@ -14,7 +14,7 @@ I enjoy solving problems with clean, structured code focused on real business im
 ---
 
 ## 🛠️ Technologies & Tools
-| Lenguajes | Backend | Frontend | Database | Cloud / DevOps |
+| Languages | Backend | Frontend | Database | Cloud / DevOps |
 |------------|----------|-----------|----------------|----------------|
 | C#, TypeScript | ASP.NET Core | React, HTML, CSS | SQL Server, SQLite | Azure, GitHub Actions |
 

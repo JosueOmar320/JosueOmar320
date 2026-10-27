@@ -9,18 +9,64 @@ code that is easy to change and ships with confidence.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge)](https://linkedin.com/in/josue-flores-00356a2a2)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge)](mailto:josue.omar.75@hotmail.com)
+[![Vitrina](https://img.shields.io/badge/Try_it-Vitrina_dashboard-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://catalogo-saas-nu.vercel.app)
 [![Universe Explorer](https://img.shields.io/badge/Live_demo-Universe_Explorer-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://josueomar320.github.io/universe-explorer/)
 
 </div>
 
 ## 🔭 Right now
 
+- Building **[Vitrina](https://github.com/JosueOmar320/catalogo-saas)**, a multi-tenant SaaS with
+  Next.js, Supabase (PostgreSQL) and an AI assistant, deployed on Vercel
 - Growing as a **full-stack** developer on top of a .NET backend foundation: React, TypeScript
   and modern frontend testing
 - Going deeper into **Azure** and **software architecture**
 - Open to **backend and full-stack** opportunities
 
 ## 🧾 Featured projects
+
+### 🛍️ Vitrina: website, catalog and PDF builder for small businesses
+
+[![Vitrina: the site editor with Garfield, the AI assistant](https://raw.githubusercontent.com/JosueOmar320/catalogo-saas/main/docs/images/panel-garfield.jpg)](https://catalogo-saas-nu.vercel.app)
+
+A multi-tenant SaaS where a small business builds its website **without code**. The site doubles
+as a product catalog that takes orders over WhatsApp and exports to a print-ready PDF, and an AI
+assistant edits it from plain-language requests. **Try the real dashboard without signing up:**
+each visitor gets a private, pre-filled test business that is deleted after 24 hours.
+
+[![CI](https://github.com/JosueOmar320/catalogo-saas/actions/workflows/ci.yml/badge.svg)](https://github.com/JosueOmar320/catalogo-saas/actions/workflows/ci.yml)
+![Next.js 16](https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-Postgres_%2B_RLS-3ECF8E?logo=supabase&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-deployed-000000?logo=vercel&logoColor=white)
+
+- **Tenant isolation in the database:** Row Level Security on all 26 tables and on Storage, so a
+  bug in the app or a direct API call cannot cross businesses, verified by 436 database tests
+- **AI that can't go rogue:** the assistant only proposes typed, validated actions that run
+  through the same code and permissions as the UI, and works without an API key
+- **One model, two renderers:** the same sections and design tokens render the website (React) and
+  the PDF catalog, so they never drift apart
+- **Built for real use:** order inbox, customers, push notifications, sales funnel analytics,
+  custom domains, sandboxed custom code, an admin console and a Spanish/English UI
+- **Shipped like production code:** every change through a pull request with typecheck, lint,
+  unit, database and end-to-end tests, CodeQL and a production build
+
+| 1,000+ automated tests | 94% coverage | RLS on 26 tables | 60+ PRs through CI |
+| :--------------------: | :----------: | :--------------: | :-----------------: |
+
+<table>
+  <tr>
+    <td><a href="https://catalogo-saas-nu.vercel.app/demo"><img src="https://raw.githubusercontent.com/JosueOmar320/catalogo-saas/main/docs/images/site-home.jpg" alt="Public site of a business"></a></td>
+    <td><a href="https://catalogo-saas-nu.vercel.app"><img src="https://raw.githubusercontent.com/JosueOmar320/catalogo-saas/main/docs/images/panel-orders.jpg" alt="Order inbox"></a></td>
+    <td><a href="https://catalogo-saas-nu.vercel.app"><img src="https://raw.githubusercontent.com/JosueOmar320/catalogo-saas/main/docs/images/panel-stats.jpg" alt="Sales funnel analytics"></a></td>
+    <td><a href="https://catalogo-saas-nu.vercel.app/demo/pdf"><img src="https://raw.githubusercontent.com/JosueOmar320/catalogo-saas/main/docs/images/pdf-catalog.jpg" alt="PDF catalog"></a></td>
+  </tr>
+</table>
+
+**[Try the dashboard](https://catalogo-saas-nu.vercel.app)** ·
+**[Repository](https://github.com/JosueOmar320/catalogo-saas)** ·
+[Engineering highlights](https://github.com/JosueOmar320/catalogo-saas#engineering-highlights) ·
+[Architecture](https://github.com/JosueOmar320/catalogo-saas#architecture)
 
 ### 🪐 Universe Explorer
 
@@ -85,15 +131,16 @@ balance summaries.
 |                    |                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Languages**      | ![C#](https://img.shields.io/badge/C%23-239120) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791)                                                                                                                                                                                                                                    |
-| **Backend**        | ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?logo=dotnet&logoColor=white) ![EF Core](https://img.shields.io/badge/Entity_Framework_Core-512BD4?logo=dotnet&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST_APIs-555555) ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=black)                                                                                 |
-| **Frontend**       | ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?logo=reactquery&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=reactrouter&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) ![HTML & CSS](https://img.shields.io/badge/HTML_%26_CSS-E34F26?logo=html5&logoColor=white) |
+| **Backend**        | ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?logo=dotnet&logoColor=white) ![EF Core](https://img.shields.io/badge/Entity_Framework_Core-512BD4?logo=dotnet&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST_APIs-555555) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white) ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=black)                                                                                 |
+| **Frontend**       | ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?logo=reactquery&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=reactrouter&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) ![HTML & CSS](https://img.shields.io/badge/HTML_%26_CSS-E34F26?logo=html5&logoColor=white) |
 | **Testing**        | ![xUnit](https://img.shields.io/badge/xUnit-512BD4) ![NUnit](https://img.shields.io/badge/NUnit-25A162) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?logo=vitest&logoColor=white) ![Testing Library](https://img.shields.io/badge/Testing_Library-E33332?logo=testinglibrary&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33)                                                              |
-| **Databases**      | ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927) ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)                                                                                                                                                                                                                                                                                  |
-| **Cloud & DevOps** | ![Azure](https://img.shields.io/badge/Azure-0078D4) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?logo=githubpages&logoColor=white)                                                                                                                                                                    |
+| **Databases**      | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927) ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)                                                                                                                                                                                                                                                                                  |
+| **Cloud & DevOps** | ![Azure](https://img.shields.io/badge/Azure-0078D4) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?logo=githubpages&logoColor=white)                                                                                                                                                                    |
 
 ## 🧭 How I work
 
 - **SOLID** and **Clean Architecture**: business logic independent of frameworks and databases
+- **Security in depth**: authorization enforced in the database too, not only in the app
 - **Tests are part of the feature**, not an afterthought
 - **Small, reviewable commits** and a CI pipeline that catches problems before they ship
 - **Accessibility and performance are measured**, not assumed

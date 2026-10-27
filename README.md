@@ -2,7 +2,7 @@
 
 # Hi, I'm Josue Omar 👋
 
-**Backend & Full-Stack Developer** · C# / .NET · React / TypeScript · Managua, Nicaragua 🇳🇮
+**Backend & Full-Stack Developer** · C# / .NET · React / Next.js / TypeScript · Managua, Nicaragua 🇳🇮
 
 I build APIs and web apps with clean architecture, automated tests and CI/CD:
 code that is easy to change and ships with confidence.
@@ -110,21 +110,29 @@ interface and data strategy, inside one shared, type-safe React shell.
 
 ### 💳 [Banking API](https://github.com/JosueOmar320/BankingApp)
 
-![.NET 8](https://img.shields.io/badge/.NET-8-512BD4?logo=dotnet&logoColor=white)
+[![CI](https://github.com/JosueOmar320/BankingApp/actions/workflows/ci.yml/badge.svg)](https://github.com/JosueOmar320/BankingApp/actions/workflows/ci.yml)
+![.NET 10](https://img.shields.io/badge/.NET-10_LTS-512BD4?logo=dotnet&logoColor=white)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-Web_API-512BD4?logo=dotnet&logoColor=white)
 ![EF Core](https://img.shields.io/badge/EF_Core-SQLite-003B57?logo=sqlite&logoColor=white)
-![NUnit](https://img.shields.io/badge/tests-NUnit_%2B_Moq-25A162)
-![Swagger](https://img.shields.io/badge/docs-Swagger-85EA2D?logo=swagger&logoColor=black)
+![Tests](https://img.shields.io/badge/tests-NUnit_%2B_Moq-25A162)
+[![Container image](https://img.shields.io/badge/ghcr.io-bankingapp-2496ED?logo=docker&logoColor=white)](https://github.com/JosueOmar320/BankingApp/pkgs/container/bankingapp)
 
-REST API for customers, bank accounts and transactions: deposits, withdrawals, interest and
-balance summaries.
+REST API for customers, bank accounts and a transaction ledger: deposits, withdrawals, interest and
+transfers between accounts, where each customer can only operate their own accounts.
 
-- **Clean Architecture** in four projects (Domain, Application, Infrastructure, API), with
-  repositories and services behind interfaces
-- Business rules validated in the application services (positive amounts, no withdrawal over the
-  available balance)
-- **39 unit tests** for controllers, services and repositories with NUnit, Moq and EF Core InMemory
-- Interactive API documentation with **Swagger**
+- **Clean Architecture with a rich domain model:** the account aggregate protects its own rules
+  (positive amounts with two decimals, no withdrawal or transfer over the balance)
+- **Money that stays consistent under pressure:** each balance change and its ledger entry are
+  saved atomically, optimistic concurrency stops two simultaneous withdrawals from overdrawing an
+  account, and an `Idempotency-Key` makes a retried request apply only once
+- **Secure by default:** JWT authentication with per-owner authorization, PBKDF2 password hashes,
+  rate limits and RFC 7807 problem details for every error, in English or Spanish
+- **Production-ready delivery:** 165 tests (domain, services, real SQLite and HTTP integration),
+  CI with format check, warnings as errors and a vulnerability audit, and a Docker image published
+  to GitHub Container Registry on every tagged release
+
+**[Repository](https://github.com/JosueOmar320/BankingApp)** ·
+[Releases](https://github.com/JosueOmar320/BankingApp/releases)
 
 ## 🛠️ Tech stack
 
@@ -135,7 +143,7 @@ balance summaries.
 | **Frontend**       | ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?logo=reactquery&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=reactrouter&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) ![HTML & CSS](https://img.shields.io/badge/HTML_%26_CSS-E34F26?logo=html5&logoColor=white) |
 | **Testing**        | ![xUnit](https://img.shields.io/badge/xUnit-512BD4) ![NUnit](https://img.shields.io/badge/NUnit-25A162) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?logo=vitest&logoColor=white) ![Testing Library](https://img.shields.io/badge/Testing_Library-E33332?logo=testinglibrary&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33)                                                              |
 | **Databases**      | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927) ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)                                                                                                                                                                                                                                                                                  |
-| **Cloud & DevOps** | ![Azure](https://img.shields.io/badge/Azure-0078D4) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?logo=githubpages&logoColor=white)                                                                                                                                                                    |
+| **Cloud & DevOps** | ![Azure](https://img.shields.io/badge/Azure-0078D4) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?logo=githubpages&logoColor=white)                                                                                                                                                                    |
 
 ## 🧭 How I work
 

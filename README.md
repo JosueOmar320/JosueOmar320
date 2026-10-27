@@ -127,7 +127,7 @@ transfers between accounts, where each customer can only operate their own accou
   account, and an `Idempotency-Key` makes a retried request apply only once
 - **Secure by default:** JWT authentication with per-owner authorization, PBKDF2 password hashes,
   rate limits and RFC 7807 problem details for every error, in English or Spanish
-- **Production-ready delivery:** 165 tests (domain, services, real SQLite and HTTP integration),
+- **Production-ready delivery:** 274 tests (domain, services, real SQLite and HTTP integration),
   CI with format check, warnings as errors and a vulnerability audit, and a Docker image published
   to GitHub Container Registry on every tagged release
 

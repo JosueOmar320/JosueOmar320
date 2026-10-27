@@ -145,6 +145,14 @@ balance summaries.
 - **Small, reviewable commits** and a CI pipeline that catches problems before they ship
 - **Accessibility and performance are measured**, not assumed
 
+## 📫 Let's connect
+
+I'm open to backend and full-stack roles. The fastest way to reach me is
+**[LinkedIn](https://www.linkedin.com/in/josue-flores-00356a2a2)** or
+**[email](mailto:josue.omar.75@hotmail.com)**.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Josue_Flores-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/josue-flores-00356a2a2)
+
 <div align="center">
 
 <sub>Outside of code: reading about technology and playing adventure and strategy games 🎮</sub>
